@@ -15,10 +15,18 @@ declare type Preferences = ExtensionPreferences
 declare namespace Preferences {
   /** Preferences accessible in the `clipboard-cleaner` command */
   export type ClipboardCleaner = ExtensionPreferences & {}
+  /** Preferences accessible in the `paste-as-plain-text` command */
+  export type PasteAsPlainText = ExtensionPreferences & {}
+  /** Preferences accessible in the `restore-previous-clipboard` command */
+  export type RestorePreviousClipboard = ExtensionPreferences & {}
 }
 
 declare namespace Arguments {
   /** Arguments passed to the `clipboard-cleaner` command */
   export type ClipboardCleaner = {}
+  /** Arguments passed to the `paste-as-plain-text` command */
+  export type PasteAsPlainText = {}
+  /** Arguments passed to the `restore-previous-clipboard` command */
+  export type RestorePreviousClipboard = {}
 }
 

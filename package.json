@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "clipboard-cleaner",
   "title": "Clipboard Cleaner",
-  "description": "Clean copied text — strip empty lines, add spacing around a character, or find and replace.",
+  "description": "Clean copied text — strip empty lines, trim whitespace, change case, paste as plain text, sort/dedupe lines, find and replace, and more.",
   "icon": "icon.png",
   "author": "Fredrik-psd",
   "license": "MIT",
@@ -22,7 +22,35 @@
         "clipboard",
         "clean",
         "text",
-        "line"
+        "line",
+        "format"
+      ]
+    },
+    {
+      "name": "paste-as-plain-text",
+      "title": "Paste as Plain Text",
+      "description": "Strip rich-text formatting from the clipboard so the next paste is plain text",
+      "mode": "no-view",
+      "keywords": [
+        "clipboard",
+        "plain",
+        "text",
+        "strip",
+        "format",
+        "rich"
+      ]
+    },
+    {
+      "name": "restore-previous-clipboard",
+      "title": "Restore Previous Clipboard",
+      "description": "Undo the last cleaner by restoring the clipboard contents from before it ran",
+      "mode": "no-view",
+      "keywords": [
+        "clipboard",
+        "undo",
+        "restore",
+        "previous",
+        "history"
       ]
     }
   ],
